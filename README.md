@@ -19,3 +19,26 @@ https://medium.com/@harshitsinghai77/introducing-webase-3f765076c403
 
 ## Youtube
 https://www.youtube.com/watch?v=buU5tFiB_qQ
+
+## Screenshots of Web App
+<img src="screenshots/1.jpeg" alt="alt text" width="50%">
+<img src="screenshots/2.jpeg" alt="alt text" width="50%">
+<img src="screenshots/3.jpeg" alt="alt text" width="50%">
+<img src="screenshots/4.jpeg" alt="alt text" width="50%">
+<img src="screenshots/5.jpeg" alt="alt text" width="50%">
+<img src="screenshots/6.jpeg" alt="alt text" width="50%">
+<img src="screenshots/7.jpeg" alt="alt text" width="50%">
+<img src="screenshots/8.jpeg" alt="alt text" width="50%">
+<img src="screenshots/9.jpeg" alt="alt text" width="50%">
+<img src="screenshots/10.jpeg" alt="alt text" width="50%">
+<img src="screenshots/11.jpeg" alt="alt text" width="50%">
+<img src="screenshots/12.jpeg" alt="alt text" width="50%">
+<img src="screenshots/13.jpeg" alt="alt text" width="50%">
+<img src="screenshots/14.jpeg" alt="alt text" width="50%">
+<img src="screenshots/15.jpeg" alt="alt text" width="50%">
+<img src="screenshots/16.jpeg" alt="alt text" width="50%">
+<img src="screenshots/17.jpeg" alt="alt text" width="50%">
+<img src="screenshots/18.jpeg" alt="alt text" width="50%">
+<img src="screenshots/19.jpeg" alt="alt text" width="50%">
+<img src="screenshots/20.jpeg" alt="alt text" width="50%">
+<img src="screenshots/21.jpeg" alt="alt text" width="50%">
