@@ -1,0 +1,110 @@
+.root {
+    max-width: 100%;
+    padding: 16px;
+    margin: auto;
+}
+
+.pageHeader {
+    color: #4a4a4a;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.ModelForm_root__1FQzT {
+    max-width: 1000px;
+    padding: 24px;
+    margin: auto;
+}
+
+.ModelForm_categoryForm__32uIx {
+    height: 45px;
+    width: 100%;
+    min-width: 320px;
+    max-width: 450px;
+    position: relative;
+    margin: 50px auto 40px;
+}
+
+.flexCenter {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.drzUyi {
+    color: rgb(255, 255, 255);
+    height: 40px;
+    font-size: 12px;
+    background-color: rgb(84, 111, 255);
+    padding-left: 16px;
+    padding-right: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+}
+
+.ModelForm_categoryWrapper__3qvMl {
+    height: 32px;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 12px;
+    white-space: nowrap;
+    background-color: #dadada;
+    border-radius: 16px;
+    padding: 4px 12px;
+    margin: 4px;
+}
+
+.ModelForm_categoryName__3ikpG {
+    color: #2b2b2b;
+}
+
+.ModelForm_remove__3Bnot {
+    color: #979797;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 17px;
+    margin-left: 12px;
+}
+
+.ModelForm_labelAdd__14SIj {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    font-size: 12px;
+    background-color: rgb(84, 111, 255);
+    padding-left: 16px;
+    padding-right: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+}
+
+.ModelForm_categories__1DCHn {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+}

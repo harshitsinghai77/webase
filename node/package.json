@@ -1,0 +1,35 @@
+{
+  "name": "webase",
+  "version": "1.0.0",
+  "description": "A simple restful api implementation using node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "harshitsinghai77",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "joi-password-complexity": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.14",
+    "mongoose": "^5.6.4",
+    "nodemailer": "^6.3.1",
+    "nodemailer-sendgrid-transport": "^0.2.0"
+  },
+  "engines": {
+    "node": "12.6.0"
+  }
+}

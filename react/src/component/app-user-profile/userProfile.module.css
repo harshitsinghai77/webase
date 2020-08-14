@@ -1,0 +1,69 @@
+.view {
+    min-width: 224px;
+    max-width: 848px;
+    padding: 10px 100px 100px 300px
+}
+
+.Login_loginContainer__3DnwY {
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    background-image: linear-gradient(180deg,#FFF952 50%,#fff 0);
+}
+
+.Login_backlink__1igi6 {
+    margin-top: 80px;
+    color: #546fff;
+    font-size: 14px;
+    font-weight: 600;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.Login_verificationimage__3AfsJ {
+    margin-bottom: 20px;
+    -webkit-align-self: center;
+    align-self: center;
+}
+
+.Login_text__2fEVf {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 15px;
+    color: #363e75;
+}
+
+.Login_title__HV0Kh {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: .8px;
+    color: #363e75;
+    padding-bottom: 10px;
+}
+
+.Login_loginBox__3it1r {
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 550px;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 19px 3px rgba(0,0,0,.19);
+    background-color: #fff;
+    padding: 42px 84px;
+}
+
+.Login_background__1xzIL {
+    display: -webkit-flex;
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+}
