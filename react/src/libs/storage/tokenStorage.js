@@ -1,8 +1,9 @@
-import localstorage from 'local-storage'
+import localstorage from "local-storage";
 
-const keyToken = 'TOKEN_KEY';
-const keyCurrentUserID = 'CURRENT_USER_ID';
-const keyCurrentUserEmail = 'CURRENT_USER_EMAIL';
+const keyToken = "TOKEN_KEY";
+const keyCurrentUserID = "CURRENT_USER_ID";
+const keyCurrentUserName = "CURRENT_USER_NAME";
+const keyCurrentUserEmail = "CURRENT_USER_EMAIL";
 
 /**
  * save the auth token
@@ -10,6 +11,38 @@ const keyCurrentUserEmail = 'CURRENT_USER_EMAIL';
  */
 export function saveToken(token) {
   localstorage.set(keyToken, token);
+}
+
+/**
+ * Delete auth token
+ * @return {*}
+ */
+export function clearToken() {
+  return localstorage.remove(keyToken);
+}
+
+/**
+ * Read info about current user name
+ * @return {*}
+ */
+export function getCurrentUserName() {
+  return localstorage.get(keyCurrentUserName);
+}
+
+/**
+ * Save name of the current user
+ * @return {*}
+ */
+export function setCurrentUserName(username) {
+  localstorage.set(keyCurrentUserName, username);
+}
+
+/**
+ * Remove name of the current user
+ * @return {*}
+ */
+export function clearCurrentUserName() {
+  localstorage.remove(keyCurrentUserName);
 }
 
 /**
@@ -21,15 +54,7 @@ export function getToken() {
 }
 
 /**
- * Delete auth token
- * @return {*}
- */
-export function deleteToken() {
-  return localstorage.removeItem(keyToken);
-}
-
-/**
- * Save info about current bot
+ * Save info about current user
  * @param userID
  */
 export function setCurrentUser(userID) {
@@ -39,7 +64,7 @@ export function setCurrentUser(userID) {
 }
 
 /**
- * Read info about current bot
+ * Read info about current user
  * @return {*}
  */
 export function getCurrentUser() {
@@ -47,11 +72,11 @@ export function getCurrentUser() {
 }
 
 /**
- * Clear info about current bot
+ * Clear info about current user
  * @return {*}
  */
 export function clearCurrentUser() {
-  return localstorage.removeItem(keyCurrentUserID);
+  return localstorage.remove(keyCurrentUserID);
 }
 /** ********************************************* */
 export function setUserId(userID) {
@@ -73,7 +98,7 @@ export function getUserId() {
  * @return {*}
  */
 export function clearUserId() {
-  return localstorage.removeItem(keyCurrentUserID);
+  return localstorage.remove(keyCurrentUserID);
 }
 /** ********************************************* */
 export function setUserEmail(userID) {
@@ -95,5 +120,5 @@ export function getUserEmail() {
  * @return {*}
  */
 export function clearUserEmail() {
-  return localstorage.removeItem(keyCurrentUserEmail);
+  return localstorage.remove(keyCurrentUserEmail);
 }

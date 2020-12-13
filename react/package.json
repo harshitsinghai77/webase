@@ -4,9 +4,8 @@
   "private": true,
   "dependencies": {
     "@reach/router": "^1.2.1",
-    "@tensorflow-models/coco-ssd": "^2.0.0",
-    "@tensorflow/tfjs": "^1.2.11",
-    "@tensorflow/tfjs-converter": "^1.2.11",
+    "@tensorflow-models/coco-ssd": "^2.2.1",
+    "@tensorflow/tfjs": "^2.7.0",
     "antd": "^3.19.1",
     "axios": "^0.19.0",
     "firebase": "^6.6.1",

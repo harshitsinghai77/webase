@@ -12,7 +12,7 @@ const Login = require("./routes/login");
 const Register = require("./routes/register");
 const Model = require("./routes/dl_model/model");
 const Profile = require("./routes/profile");
-// const Verification = require('./routes/verification/verification');
+const Verification = require("./routes/verification/verification");
 const authorization = require("./middleware/authorization");
 
 require("dotenv").config();
@@ -41,14 +41,14 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Custome middleware
+// Custom middleware
 app.use(contentTypeHandler());
 app.use(serverResponseHandler());
 
 //Routes
 app.use("/profile", authorization, Profile);
 app.use("/model", authorization, Model);
-// app.use('/verification', Verification)
+app.use("/verification", Verification);
 app.use("/login", Login);
 app.use("/register", Register);
 
