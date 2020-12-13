@@ -1,12 +1,25 @@
-.logo {
-    width: 100px;
-    height: 100px;
-    margin: 16px;
-    padding-left: 22px;
+.logo_default {
+  height: 15%;
+  margin: 16px;
+  padding-left: 22px;
 }
 
-.profileImage {
-    border-radius: 50%;
-    overflow: hidden;
-    width: 100px;
+.profileImage_default {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  transition: width 2s;
+}
+
+.logo_collapsed {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+}
+
+.profileImage_collapsed {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 50px;
+  transition: height 2s;
 }

@@ -4,7 +4,6 @@ import Home from "./component/app-home/home";
 import CreateProject from "./component/app-create-new-project/addModel";
 import Interface from "./component/app-model-interface/interface";
 import InterfaceNLP from "./component/app-model-interface-nlp/interfaceNLP";
-import ObjectDetection from "./component/app-objectDetection/objectDetection";
 import UserProfile from "./component/app-user-profile/userProfile";
 import ChangePassword from "./component/app-user-profile/changePassword";
 import styles from "./index.module.css";
@@ -90,10 +89,6 @@ const routes = [
   {
     path: "user-profile-change-password",
     component: isLoggedIn(withParams(withDashboard(ChangePassword))),
-  },
-  {
-    path: "object-detection",
-    component: isLoggedIn(withParams(withDashboard(ObjectDetection))),
   },
   {
     path: "models/computer_vision/:modelName/:modelID",

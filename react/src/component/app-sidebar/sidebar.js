@@ -44,9 +44,15 @@ const SiderDemo = (props) => {
   return (
     <Layout style={{ minHeight: "100vh" }}>
       <Sider collapsible collapsed={collapsed} onCollapse={onCollapse}>
-        <div className={styles.logo}>
+        <div
+          className={collapsed ? styles.logo_collapsed : styles.logo_default}
+        >
           <img
-            className={styles.profileImage}
+            className={
+              collapsed
+                ? styles.profileImage_collapsed
+                : styles.profileImage_default
+            }
             src="https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png"
           />
         </div>
@@ -55,13 +61,6 @@ const SiderDemo = (props) => {
             <Link to={`/create-new-project/${getCurrentUser}`}>
               <Icon type="pie-chart" />
               <span>Use existing model</span>
-            </Link>
-          </Menu.Item>
-
-          <Menu.Item key="2" onClick={() => setSelectedKey("2")}>
-            <Link to={`/object-detection`}>
-              <Icon type="desktop" />
-              <span>Object Detection</span>
             </Link>
           </Menu.Item>
 
