@@ -19,7 +19,7 @@ CORS(app)
 
 @app.route('/', methods=['GET'])
 def index():
-    return 'Hello Flask - Flask'
+    return 'Flask app running succesfully.'
 
 @app.route('/removeBackground', methods=['GET','POST'])
 def removebackground():
