@@ -13,10 +13,6 @@ https://app-webase.netlify.app/
 **Email** - harshitsinghai77@gmail.com </br>
 **Password** - Pass@12345
 
-
-## Medium
-https://medium.com/@harshitsinghai77/introducing-webase-3f765076c403
-
 ## Youtube
 https://www.youtube.com/watch?v=buU5tFiB_qQ
 
